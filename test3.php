@@ -1,0 +1,3 @@
+<?php
+$str = '{"id":112015,"chapter_name":"\u042d\u043a\u0441\u0442\u0440\u0430 \u041e\u043c\u0430\u043a\u0435","chapter_volume":1,"chapter_number":"7.5","branch_id":null,"status":null,"price":0,"slug":"kimetsu-no-yaiba","slugid":3595,"title":"\u041a\u043b\u0438\u043d\u043e\u043a, \u0440\u0430\u0441\u0441\u0435\u043a\u0430\u044e\u0449\u0438\u0439 \u0434\u0435\u043c\u043e\u043d\u043e\u0432\/\u0422\u043e\u043c 1 \u0413\u043b\u0430\u0432\u0430 7.5 \u042d\u043a\u0441\u0442\u0440\u0430 \u041e\u043c\u0430\u043a\u0435"}';
+print_r(json_decode($str,true));
